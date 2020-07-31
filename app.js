@@ -30,15 +30,12 @@ $(".saveBtn").click(function () {
     let time = $(this).parents().attr("id")
     console.log(time)
 
-    localStorage.setItem(value)
     localStorage.setItem(time, value)
 })
 
 
+// This 
 
-})
-
-    // / Grabbing user input from local storage and retreving it when the page is refreshed after hitting save button
 $("#9 .description").val(localStorage.getItem("9"))
 $("#10 .description").val(localStorage.getItem("10"))
 $("#11 .description").val(localStorage.getItem("11"))
@@ -51,3 +48,4 @@ $("#5 .description").val(localStorage.getItem("5"))
 
 
 
+// $(selector).siblings(filter)
